@@ -1,30 +1,4 @@
 
-Skip to content
-
-    Pull requests
-    Issues
-    Marketplace
-    Explore
-
-    @akmitt
-
-0
-0
-
-    0
-
-akmitt/Coffee-House
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Insights
-Settings
-Coffee-House/coffee-house/ReadMe
-d9b04ef 34 seconds ago
-@akmitt akmitt adding files
-62 lines (46 sloc) 1.51 KB
 Unzip the file
 Import the file in eclipse as Maven Project or go to parent directory coffee-house
 mvn clean install
@@ -87,18 +61,4 @@ If invalid coffee type is ordered whihc is not in coffee list coffee is not orde
 
  NOTE:--  since it was mentioned in problem statement not to use any database, all data  persist only till application is up, when restarted all data is lost
 
-    © 2018 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    API
-    Training
-    Shop
-    Blog
-    About
-
-Press h to open a hovercard with more details.
+   
