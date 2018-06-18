@@ -1,5 +1,5 @@
 
-Unzip the file
+Unzip the file or clone project 
 Import the file in eclipse as Maven Project or go to parent directory coffee-house
 mvn clean install
 jar is created in the target folder
