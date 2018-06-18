@@ -1,1 +1,104 @@
-# Coffee-House
+
+Skip to content
+
+    Pull requests
+    Issues
+    Marketplace
+    Explore
+
+    @akmitt
+
+0
+0
+
+    0
+
+akmitt/Coffee-House
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+Insights
+Settings
+Coffee-House/coffee-house/ReadMe
+d9b04ef 34 seconds ago
+@akmitt akmitt adding files
+62 lines (46 sloc) 1.51 KB
+Unzip the file
+Import the file in eclipse as Maven Project or go to parent directory coffee-house
+mvn clean install
+jar is created in the target folder
+start java -jar coffee-house-0.0.1-SNAPSHOT.jar from cmd or ApplicationStartUp in eclipse as java application 
+
+Swagger URL To  check all api
+
+http://localhost:8080/swagger-ui.html
+
+Under Coffee-House Controller methods exposed
+
+/addCoffee- Add a new Coffee  by giving type and serving per day, only unique coffee can be added
+Sample Request 1
+{
+  "description": "Black Coffee",
+  "name": "Black",
+  "servingPerDay": 5
+}
+Sample Request 2
+{
+  "description": "Black Coffee",
+  "name": "White",
+  "servingPerDay": 5
+}
+
+/addCustomer- Add a new Customer  by giving  unique combination of name and phone number
+
+{
+  "name": "AKhil",
+  "phoneNumber": "9888123451"
+}
+
+
+
+/buyCoffee- Add a new Customer  by giving  unique combination of name and phone number, Multiple type of cofee can be added in coffeeDetails
+
+{
+  "coffeeDetails": [
+    {
+      "quantity": 1,
+      "type": "Black"
+    },
+    {
+      "quantity": 1,
+      "type": "white"
+    }
+  ],
+  "customerDetails": {
+    "name": "Akhil",
+    "phoneNumber": "9888123451"
+  }
+}
+
+If invalid coffee type is ordered whihc is not in coffee list coffee is not ordered
+
+
+
+/dailyRecord-- it creates a record based on order and coffeee  it picks the current date and generate it for that day
+
+ NOTE:--  since it was mentioned in problem statement not to use any database, all data  persist only till application is up, when restarted all data is lost
+
+    © 2018 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    API
+    Training
+    Shop
+    Blog
+    About
+
+Press h to open a hovercard with more details.
